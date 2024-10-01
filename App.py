@@ -122,7 +122,7 @@ if st.button("Get Advice"):
 
 # Sidebar with additional options
 with st.sidebar:
-    #st.image("expert_banner.png", use_column_width=True)  # You can use a custom image here
+    st.image("expert_banner.png", use_column_width=True)  # You can use a custom image here
     st.header("About")
     st.write(
         """
@@ -131,3 +131,9 @@ with st.sidebar:
         """
     )
     st.write("Developed by: U-Connect")
+
+
+
+    # Add footer with social media links
+st.markdown("---")
+st.markdown("💬 Connect with us: [LinkedIn](https://www.linkedin.com/) | [Twitter](https://twitter.com/) | [GitHub](https://github.com/)")
